@@ -14,7 +14,6 @@ public class TestActitimeLoginandCreateCustomer {
 	@Test(groups="Regression")
 	public void createCustomer() throws InterruptedException
 	{
-		
 	System.setProperty("webdriver.chrome.driver", "./software/chromedriver 6");
 	WebDriver driver = new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
