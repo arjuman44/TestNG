@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14538" started-at="2020-06-01T22:01:46Z" finished-at="2020-06-01T22:02:00Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestActitimeLoginAndCancelCustomerCreate.cancelCustomer()[pri:0, instance:test.TestActitimeLoginAndCancelCustomerCreate@5afa04c]" name="cancelCustomer" class="test.TestActitimeLoginAndCancelCustomerCreate"/>
+        <method signature="TestActitimeLoginAndDeleteLeaveType.deleteLeaveType()[pri:0, instance:test.TestActitimeLoginAndDeleteLeaveType@174d20a]" name="deleteLeaveType" class="test.TestActitimeLoginAndDeleteLeaveType"/>
+        <method signature="TestActitimeLoginAndDeleteWorkType.deleteWorkType()[pri:0, instance:test.TestActitimeLoginAndDeleteWorkType@7921b0a2]" name="deleteWorkType" class="test.TestActitimeLoginAndDeleteWorkType"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="14538" started-at="2020-06-01T22:01:46Z" finished-at="2020-06-01T22:02:00Z">
+      <class name="test.TestActitimeLoginAndDeleteWorkType">
+        <test-method status="PASS" signature="deleteWorkType()[pri:0, instance:test.TestActitimeLoginAndDeleteWorkType@7921b0a2]" name="deleteWorkType" duration-ms="14001" started-at="2020-06-01T18:01:46Z" finished-at="2020-06-01T18:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWorkType -->
+      </class> <!-- test.TestActitimeLoginAndDeleteWorkType -->
+      <class name="test.TestActitimeLoginAndDeleteLeaveType">
+        <test-method status="PASS" signature="deleteLeaveType()[pri:0, instance:test.TestActitimeLoginAndDeleteLeaveType@174d20a]" name="deleteLeaveType" duration-ms="14528" started-at="2020-06-01T18:01:46Z" finished-at="2020-06-01T18:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeaveType -->
+      </class> <!-- test.TestActitimeLoginAndDeleteLeaveType -->
+      <class name="test.TestActitimeLoginAndCancelCustomerCreate">
+        <test-method status="PASS" signature="cancelCustomer()[pri:0, instance:test.TestActitimeLoginAndCancelCustomerCreate@5afa04c]" name="cancelCustomer" duration-ms="12035" started-at="2020-06-01T18:01:46Z" finished-at="2020-06-01T18:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCustomer -->
+      </class> <!-- test.TestActitimeLoginAndCancelCustomerCreate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
